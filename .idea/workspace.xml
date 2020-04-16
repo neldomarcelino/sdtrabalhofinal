@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc59ae6b-999b-4bc3-9e0e-dff20f960a5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jakarta.inject-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jakarta.ws.rs-api-2.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jersey-common-2.30.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jersey-container-jdk-http-2.25.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/osgi-resource-locator-1.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quarto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecursosQuartos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecursosServidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Servidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heroku_1563d15fd3bfa25.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/config/HibernateConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/config/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/config/WebMVCConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/controller/DashBoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/controller/ExamDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/dao/CRUDDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/dao/CRUDDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/formatter/NameFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/Countries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/Exam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/ExamAttempts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/ExamAttemptsPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/ExamGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/Qtype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/QuestionAnswers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/University.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/repository/UsersRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/service/CRUDService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/service/CRUDServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/service/Helper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/mz/co/osoma/utils/ArrayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/messages_pt.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/css/popuo-box.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/css/styleForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/modal.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/util.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/JosefinSans-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/JosefinSans/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/iconic/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/iconic/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/UFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/Ubuntu-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/Ubuntu-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/Ubuntu-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/Ubuntu-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/Ubuntu-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/Ubuntu-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/Ubuntu-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/fonts/ubuntu/Ubuntu-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/heroku_1563d15fd3bfa25.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/28468.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/bg-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/biologia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/desenho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/filosofia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/fisica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/frances.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/geografia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/historia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/ingles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/matematica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/portugues.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/cover/quimica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/biologia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/desenho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/filosofia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/fisica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/frances.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/geografia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/historia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/ingles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/matematica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/portugues.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/disciplinas/quimica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/fav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/giphy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/lang/en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/lang/pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/loadinfo.net.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/logo2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/qa/672_182_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/qa/672_182_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/qa/672_182_c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/qa/672_182_d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/to-top1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/images/welcome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/MathJax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/exam-details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/exams-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/fb-config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/move-top.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/online-test-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/online-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/responsiveslides.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/animsition/css/animsition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/animsition/css/animsition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/animsition/js/animsition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/animsition/js/animsition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/countdowntime/countdowntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/daterangepicker/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/select2/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/adminLogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/dashboard-home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/diagnosis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/exam-details-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/exam-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/exam-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/exam-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/exam-noquestion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/exam-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/exams-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/explainers-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/layouts/layout-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/layouts/layout-diagnosis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/layouts/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/layouts/layoutLogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/question-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/question-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/question-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/success-exam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/user-register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/users-admin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/mainContent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/sourceFile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/templates/_footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/templates/_header-no-search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/templates/_header-nothing.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/jsp/templates/_header-search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/controller/DashBoardControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/controller/ExamDetailsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/controller/HomeControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/controller/LoginControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/model/AdminTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/model/CategoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/model/ExamAttemptsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/model/QuestionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mz/co/osoma/service/CustomUserDetailsServiceTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Quarto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RecursosQuartos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="46" column="24" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#1764#1765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Servidor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RecursosServidor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/Servidor.java" />
+        <option value="$PROJECT_DIR$/src/RecursosServidor.java" />
+        <option value="$PROJECT_DIR$/src/Quarto.java" />
+        <option value="$PROJECT_DIR$/src/RecursosQuartos.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="101" />
+    <option name="y" value="178" />
+    <option name="width" value="1211" />
+    <option name="height" value="588" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SDTrabalho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SDTrabalho" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SDTrabalho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SDTrabalho" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587041538960" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jersey-container-jdk-http-2.25.1.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Servidor" />
+      <module name="SDTrabalho" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Servidor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc59ae6b-999b-4bc3-9e0e-dff20f960a5c" name="Default Changelist" comment="" />
+      <created>1587020145237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587020145237</updated>
+      <workItem from="1587020153168" duration="18377000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18377000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32899022" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servidor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quarto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RecursosServidor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RecursosQuartos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SDTrabalho</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.annotation:javax.annotation-api:1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
