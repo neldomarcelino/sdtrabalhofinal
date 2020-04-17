@@ -14,7 +14,7 @@ public class Servidor {
         try {
             ResourceConfig config = new ResourceConfig();
             //regista recurso servidor
-            config.register(new RecursosServidor());
+            //config.register(new RecursosServidor());
             //regista recurso quarto
             config.register(new RecursosQuartos());
             //Porto do servidor
@@ -32,8 +32,8 @@ public class Servidor {
             //obtem ip do servidor para impressão na
             String ip = InetAddress.getLocalHost().getHostAddress();
             System.out.printf("Servidor REST aguarda pedidos em: http://%s:%d\n", ip, PORTO);
-        } catch (UnknownHostException e) {
-            e.printStackTrace();
+        } catch (IOException x) {
+            x.printStackTrace();
         }
     }
 }

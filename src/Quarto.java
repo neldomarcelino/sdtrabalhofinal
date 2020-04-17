@@ -15,6 +15,10 @@ public class Quarto {
         System.out.println("NELDO");
     }
 
+    public Quarto() {
+
+    }
+
     public int getNr_do_quarto() {
         return nr_do_quarto;
     }
