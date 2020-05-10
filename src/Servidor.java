@@ -42,8 +42,6 @@ public class Servidor {
             descoberta.publicar(nome, URL);
 
 
-
-
             System.out.printf("Servidor REST aguarda pedidos em: http://%s:%d\n", ip, PORTO);
         } catch (IOException x) {
             x.printStackTrace();

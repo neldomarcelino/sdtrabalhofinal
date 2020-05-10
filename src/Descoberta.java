@@ -27,21 +27,15 @@ public class Descoberta {
         {
             socket = new DatagramSocket();
 
-            System.out.println("Enter data to send to server. Write sair to Quit.");
-            in = new DataInputStream(System.in);
-
-            String line ="";
-                line = in.readLine();
-                // Send the request read from the keyboard
-                byte[] requestString = nomeServidor.getBytes();
-                InetAddress address = InetAddress.getByName("230.0.0.0");
-                DatagramPacket request = new DatagramPacket(requestString, requestString.length, address, PORT);
-                socket.send(request);
+            // Send the request read from the keyboard
+            byte[] requestString = nomeServidor.getBytes();
+            InetAddress address = InetAddress.getByName("230.0.0.0");
+            DatagramPacket request = new DatagramPacket(requestString, requestString.length, address, PORT);
+            socket.send(request);
 
 
         }
-        catch (IOException e)
-        {
+        catch (IOException e) {
             System.out.println("Error while trying to use the socket!");
             e.printStackTrace();
             System.exit(0);
@@ -58,26 +52,28 @@ public class Descoberta {
             serverSocket = new DatagramSocket();
 
             System.out.println("Servidor REST aguarda pedidos");
-            while (true) {
+
                 byte[] buffer = new byte[256];
 
+                System.out.println("SSSSSSSSSSSSSSSSSSSSSSSAAAAAAAAAAAAAAAAAAACCCCCCCCCC");
                 InetAddress group = InetAddress.getByName("230.0.0.0");
                 DatagramPacket packetRecv = new DatagramPacket(buffer, buffer.length, group, PORT);
 
-                if ((nomeServidor.equals("") && URL.equals(""))) {
-                    serverSocket.receive(packetRecv);
-                    String data = new String(packetRecv.getData()).trim();
+                serverSocket.receive(packetRecv);
+                System.out.println("SSSSSSSSSSSSSSSDDSAAA: "+ packetRecv.getData().toString());
 
-                    if (!urlMap.get(data).isEmpty()) {
-                        buffer = urlMap.get(data).getBytes();
-                    } else {
-                        buffer = "".getBytes();
-                    }
+                String data = new String(packetRecv.getData()).trim();
+
+                if (!urlMap.get(data).isEmpty()) {
+                    buffer = urlMap.get(data).getBytes();
+                } else {
+                    buffer = "".getBytes();
                 }
+
                 DatagramPacket packet = new DatagramPacket(buffer, buffer.length, group, PORT);
                 serverSocket.send(packet);
                 Thread.sleep(1000);
-            }
+
             // Handle exception
         } catch (IOException ex) {
             // Handle exception
