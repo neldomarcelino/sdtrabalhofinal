@@ -22,7 +22,8 @@ public class Cliente {
     public void inserirQuarto(String hotel, Quarto quarto, String nomeServidor) {
         String urlservidor = pesquisarServidor(nomeServidor);
         if (urlservidor != null) {
-            Response response = this.alvo(urlservidor).path(quarto.getNumero_do_Quarto()+"").request()
+
+            Response response = this.alvo(urlservidor).path(hotel).path(quarto.getNumero_do_Quarto()+"").request()
                     .post(Entity.entity(quarto, MediaType.APPLICATION_JSON));
             System.out.println("Resposta do servidor: " + response.getStatus());
         } else {
@@ -76,11 +77,4 @@ public class Cliente {
         }
     }
 
-    public static void main(String[] args) {
-        Quarto quarto = new Quarto();
-        quarto.setOcupado(true);
-        quarto.setNr_do_quarto(400);
-
-        new Cliente().inserirQuarto("plaza",quarto, "aissaussene");
-    }
 }

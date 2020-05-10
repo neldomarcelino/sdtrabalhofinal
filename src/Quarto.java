@@ -10,11 +10,14 @@ public class Quarto {
 
     private boolean ocupado;
 
+    String nome_do_hotel;
 
     public Quarto(String nome_do_hotel, int nr_do_quarto, boolean ocupado) {
         this.nr_do_quarto = nr_do_quarto;
         this.ocupado = ocupado;
+        this.nome_do_hotel = nome_do_hotel;
         System.out.println("NELDO");
+
     }
 
     public Quarto() {
@@ -37,4 +40,11 @@ public class Quarto {
         this.ocupado = ocupado;
     }
 
+    public String getNome_do_hotel() {
+        return nome_do_hotel;
+    }
+
+    public void setNome_do_hotel(String nome_do_hotel) {
+        this.nome_do_hotel = nome_do_hotel;
+    }
 }

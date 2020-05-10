@@ -35,9 +35,11 @@ public class Servidor {
             //consola do computador
             //obtem ip do servidor para impressão na
             String ip = InetAddress.getLocalHost().getHostAddress();
+            String nome = "aissaussene";
+            String URL = ip + ":" + PORTO + "/recursoquarto";
 
             Descoberta descoberta = new Descoberta();
-            descoberta.publicar("aissaussene", "230.0.0.0");
+            descoberta.publicar(nome, URL);
 
 
 

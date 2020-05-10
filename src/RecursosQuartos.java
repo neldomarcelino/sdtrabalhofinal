@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
@@ -37,8 +34,45 @@ public class RecursosQuartos {
     @Path("/quartosvazioshoteis")
     @Produces(MediaType.APPLICATION_JSON)
     public Map<String, List<Quarto>> quartos_vazios() {
+        List<Quarto> quartoList = new ArrayList<>();
+        Map<String, List<Quarto>> stringListMap = new HashMap<>();
 
-        return hoteis;
+        hotesQuarto.sort(Comparator.comparing(Quarto::getNome_do_hotel));
+        /*
+        * Aeldo
+        * Aeldo
+        * Dario
+        * Missa 1
+        * Missa 0
+        * Missa 1
+        * Nulce
+        * */
+
+        String nome_hotel = "";
+        for(Quarto quarto: hotesQuarto){
+            String nomeAux = "";
+
+            if(nome_hotel.equals("")){
+                List<Quarto> quartoList1 = new ArrayList<>();
+                if(!quarto.isOcupado()) {
+                    quartoList1.add(quarto);
+                    stringListMap.put(quarto.getNome_do_hotel(), quartoList1);
+                    nomeAux = quarto.getNome_do_hotel();
+                    nome_hotel = quarto.nome_do_hotel;
+                }
+            }else{
+                if(!quarto.isOcupado()) {
+                    stringListMap.get(nome_hotel).add(quarto);
+                }
+            }
+
+            if(!nomeAux.equals(nome_hotel)){
+                nome_hotel = "";
+            }
+
+        }
+
+        return stringListMap;
     }
     //retorna os quartos de um determinado hotel
     @GET
@@ -62,26 +96,20 @@ public class RecursosQuartos {
     }
 
     //insere um novo quarto num determinado hotel
-    @GET
-    @Path("/novoquartohotel/{nome_do_hotel}/{ocupado}")
-    public String novo_Quarto( @PathParam("nome_do_hotel") String nome_do_hotel, @PathParam("ocupado") String ocupado) {
+    @POST
+    @Path("/novoquartohotel/{nome_do_hotel}/{nr_do_quarto}")
+    public String novo_Quarto( @PathParam("nome_do_hotel") String nome_do_hotel, @PathParam("nr_do_quarto") String nr_do_quarto) {
 
         Quarto quarto1 = new Quarto();
+        quarto1.setNome_do_hotel(nome_do_hotel);
+        quarto1.setNr_do_quarto(Integer.parseInt(nr_do_quarto));
 
-        if(ocupado.equals("1")){
-            quarto1.setOcupado(true);
-        }else{
-            quarto1.setOcupado(false);
-        }
         if(hoteis.get(nome_do_hotel) != null){
-            int nr_do_quarto = hoteis.get(nome_do_hotel).size()+1;
-            quarto1.setNr_do_quarto(nr_do_quarto);
             hoteis.get(nome_do_hotel).add(quarto1);
 
         }else{
 
             List<Quarto> quartoList = new ArrayList<>();
-            quarto1.setNr_do_quarto(1);
 
             quartoList.add(quarto1);
 

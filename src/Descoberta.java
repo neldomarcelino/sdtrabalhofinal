@@ -20,25 +20,31 @@ public class Descoberta {
     public String pesquisar(String nomeServidor, int timeout) {
 
         StringBuilder msg = new StringBuilder();
-        try (MulticastSocket socket = new MulticastSocket(PORT)) {
-            InetAddress group = InetAddress.getByName("230.0.0.0");
-            socket.joinGroup(group);
-            System.out.println("Multicast  Group Joined");
+        DatagramSocket socket = null;
+        DataInputStream in = null;
 
-            byte[] buffer = nomeServidor.getBytes();
-            DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
+        try
+        {
+            socket = new DatagramSocket();
 
-            socket.send(packet);
-            socket.receive(packet);
-            String received = new String(packet.getData());
-            msg.append(received.trim()).append(" ");
-            Thread.sleep(timeout);
+            System.out.println("Enter data to send to server. Write sair to Quit.");
+            in = new DataInputStream(System.in);
 
-            socket.leaveGroup(group);
-        } catch (IOException ex) {
-            System.out.println("Error Client: "+ ex);
-        } catch (InterruptedException e) {
+            String line ="";
+                line = in.readLine();
+                // Send the request read from the keyboard
+                byte[] requestString = nomeServidor.getBytes();
+                InetAddress address = InetAddress.getByName("230.0.0.0");
+                DatagramPacket request = new DatagramPacket(requestString, requestString.length, address, PORT);
+                socket.send(request);
+
+
+        }
+        catch (IOException e)
+        {
+            System.out.println("Error while trying to use the socket!");
             e.printStackTrace();
+            System.exit(0);
         }
         return msg.toString();
     }
@@ -55,7 +61,7 @@ public class Descoberta {
             while (true) {
                 byte[] buffer = new byte[256];
 
-                InetAddress group = InetAddress.getByName(URL);
+                InetAddress group = InetAddress.getByName("230.0.0.0");
                 DatagramPacket packetRecv = new DatagramPacket(buffer, buffer.length, group, PORT);
 
                 if ((nomeServidor.equals("") && URL.equals(""))) {
